@@ -1,7 +1,7 @@
 package br.com.vendas.service;
 
 import br.com.vendas.dto.CompraDetalhada;
-import br.com.vendas.integration.ClienteClint;
+import br.com.vendas.integration.ClienteClient;
 import br.com.vendas.integration.ProdutoClient;
 import br.com.vendas.model.Cliente;
 import br.com.vendas.model.Produto;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 public class ClienteService {
 
-    private ClienteClint clienteClint;
+    private ClienteClient clienteClint;
     private ProdutoClient produtoClient;
 
     List<Cliente> listCliente;
